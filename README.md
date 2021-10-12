@@ -1,2 +1,1 @@
-# kodo
-console.log("Hi there");
+modified readme
