@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+
+        <script defer src="index.js"> </script>
+    </head>
+    <body>
+        <div onmouseenter="changeColor(this)" onmouseleave="resetColor(this)" onclick="changeText(this)" class="single"> hello</div>
+
+        <div class="parent">
+            <p>first paragraph</p>
+            <p>second paragraph</p>
+        </div>
+
+        <input type="text" onchange="log(this)">
+
+        <p class="logs"></p>
+
+        <div class="my-class" onclick="clicked()">1</div>
+        <div class="my-class">2</div>
+        <div class="my-class">3</div>
+
+    </body>
+</html>
